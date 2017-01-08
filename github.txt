@@ -1,0 +1,8 @@
+条件1：在码云上创建同样的空仓库（不包含readme.md）
+条件2：将生成的ssh_key.pub中的密钥复制到码云上的ssh key上，origin1可替换，github上传过后
+          ssh-keygen -t rsa _C "your_email"
+条件3：cd到上传文件的目录下，并且创建.git版本库，方式git init命令
+git remote add origin1 git@git.oschina.net:shiyushui5/python_py.git
+git push origin1 master(默认，本地):master（网上）
+git branch（查看分支）
+git branch name（创建分支）
