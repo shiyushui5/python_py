@@ -6,3 +6,13 @@ git remote add origin1 git@git.oschina.net:shiyushui5/python_py.git
 git push origin1 master(默认，本地):master（网上）
 git branch（查看分支）
 git branch name（创建分支）
+git checkout name（切换分支）
+git push origin1 :branch（其他分支）删除网上其他的分支
+git checkout name     切换分支到name上
+git add .保存文件
+git commit -m "注释set branch" 查看注释
+git merge name 合并分支到master
+git branch -d name   删除被合并的分支
+
+
+

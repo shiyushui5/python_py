@@ -10,7 +10,8 @@ class NamesTestCase(unittest.TestCase):          #创建一个自己命名的类
         full_name = get_fullname('yu','yan','yi')
         self.assertEqual(full_name,'Yu Yi Yan')          
 unittest.main()   #让python运行这个文件中的测试
-#输出E   表示测试中有一个单元测试出现错误
+#输出E   表示测试引发错误打印
+#输出F   表示测试导致断言失败时打印
  
 #assertEqual(a,b)             a == b
 #assertNotEqual(a,b)          a != b
